@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-info">
+    <nav class="navbar fixed-top navbar-expand-lg bg-success">
         <div class="container-fluid">
             <a class="navbar-brand text-light fw-bold" href="index.php">BIMBEL ACC</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,15 +33,15 @@
         </div>
     </nav>
 
-    <div class="row p-5 mt-5 bg-info">
+    <div class="row p-5 mt-5 bg-success">
         <h1 class="text-center text-light fw-bold">Aktual Cendekia Course</h1>
         <h5 class="text-center text-light fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa expedita itaque neque nesciunt rem? Excepturi laboriosam quaerat sed velit. A commodi eligendi in iusto molestias nihil nobis praesentium quis similique!</h5>
 
     </div>
     <div class="row">
         <div class="col-1">
-            <div class="row pt-3 bg-info h-50">
-                <h4 class="text-info">baris1</h4>
+            <div class="row pt-3 bg-success h-50">
+                <h4 class="text-success">baris1</h4>
             </div>
             <div class="row pb-3 bg-light">
                 <h4 class="text-light">baris2</h4>
@@ -74,8 +74,8 @@
         </div>
 
         <div class="col-1">
-            <div class="row pt-3 bg-info h-50">
-                <h4 class="text-info">baris1</h4>
+            <div class="row pt-3 bg-success h-50">
+                <h4 class="text-success">baris1</h4>
             </div>
             <div class="row pb-3 bg-light">
                 <h4 class="text-light">baris2</h4>
@@ -96,7 +96,7 @@
                     <div class="card-body">
                         <h5 class="card-title mt-3 ms-3">CABANG MERR</h5>
                         <p class="card-text ms-3">Jalan Ir. Soekarno Hatta Testing 123 Deket ITS kok</p>
-                        <a href="https://maps.app.goo.gl/ypq79M7f4XfkRGGH6" class="btn btn-info ms-3">Go To Detail</a>
+                        <a href="https://maps.app.goo.gl/ypq79M7f4XfkRGGH6" class="btn btn-success ms-3">Go To Detail</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -113,7 +113,7 @@
                     <div class="card-body">
                         <h5 class="card-title mt-3 ms-3">CABANG NGADILUWIH</h5>
                         <p class="card-text ms-3">Jalan Proborini deket stasiun</p>
-                        <a href="https://maps.app.goo.gl/N7QHrqazECCsQVWk8" class="btn btn-info ms-3">Go To Detail</a>
+                        <a href="https://maps.app.goo.gl/N7QHrqazECCsQVWk8" class="btn btn-success ms-3">Go To Detail</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -148,7 +148,7 @@
     </div>
 
     <div class="text-center mb-5">
-        <a href="faq.html" id="informasi" class="btn btn-light btn-outline-info">Go To Detail</a>
+        <a href="faq.html" id="informasi" class="btn btn-light btn-outline-success">Go To Detail</a>
     </div>
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
