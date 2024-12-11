@@ -2,7 +2,7 @@
 require_once '../isLogin.php';
 $roles = $_SESSION['isAdmin'];
 ?>
-<nav class="navbar nav-primary header" id="header">
+<nav class="navbar nav-primary header" id="header" style="background-color: #198754">
     <div class="container-fluid">
         <div class="header_toggle">
             <i class="bx bx-menu text-white" id="header-toggle"></i>
@@ -69,7 +69,7 @@ $roles = $_SESSION['isAdmin'];
 <?php } else {
     $request_location = $_SERVER['REQUEST_URI'];
     ?>
-    <div class="l-navbar" id="nav-bar">
+    <div class="l-navbar" id="nav-bar" style="background-color: #198754">
         <nav class="nav">
             <div>
                 <a href="#" class="nav_logo">
