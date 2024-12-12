@@ -67,8 +67,7 @@ a {
 }
 .l-navbar {
   position: fixed;
-  top: 0;
-  left: -30%;
+  left: -30%; /* Hidden by default */
   width: var(--nav-width);
   height: 100vh;
   background-color: var(--first-color);
@@ -137,7 +136,8 @@ a {
   font-size: 1.25rem;
 }
 .show-leftbar {
-  left: 0;
+  left: 0; /* Show sidebar */
+  width: calc(var(--nav-width) + 156px); /* Expand width */
 }
 .body-pd {
   padding-left: calc(var(--nav-width) + 1rem);
@@ -358,4 +358,7 @@ a {
   padding: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
+}
+.nav_name {
+  /* Nav text elements become visible when show-leftbar is applied */
 }

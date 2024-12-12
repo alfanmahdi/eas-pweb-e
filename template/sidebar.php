@@ -2,7 +2,7 @@
 require_once '../isLogin.php';
 $roles = $_SESSION['isAdmin'];
 ?>
-<nav class="navbar nav-primary header" id="header" style="background-color: #198754">
+<nav class="navbar nav-primary header bg-success" id="header">
     <div class="container-fluid">
         <div class="header_toggle">
             <i class="bx bx-menu text-white" id="header-toggle"></i>
@@ -14,7 +14,6 @@ $roles = $_SESSION['isAdmin'];
                 height="40"
                 class="rounded-circle"
         />
-    </div>
     </div>
 </nav>
 <?php if ($roles == 'admin') { ?>
@@ -69,7 +68,7 @@ $roles = $_SESSION['isAdmin'];
 <?php } else {
     $request_location = $_SERVER['REQUEST_URI'];
     ?>
-    <div class="l-navbar" id="nav-bar" style="background-color: #198754">
+    <div class="l-navbar" id="nav-bar">
         <nav class="nav">
             <div>
                 <a href="#" class="nav_logo">
@@ -114,28 +113,3 @@ $roles = $_SESSION['isAdmin'];
         </nav>
     </div>
 <?php } ?>
-
-<style>
-.l-navbar {
-  position: fixed;
-  top: 0;
-  left: -30%;
-  width: var(--nav-width);
-  height: 100vh;
-  background-color: var(--first-color);
-  padding: 0.5rem 1rem 0 0;
-  transition: 0.5s;
-  z-index: var(--z-fixed);
-  background-color: #198754; /* Bootstrap green color */
-  /* or you can use any of these green options: */
-  /* background-color: #28a745; */ /* Another shade of green */
-  /* background-color: #38b000; */ /* Forest green */
-  /* background-color: #2ecc71; */ /* Flat UI green */
-
-  /* Keep other existing properties */
-  transition: 0.5s;
-  position: fixed;
-  left: 0;
-  width: 72px;
-}
-</style>
